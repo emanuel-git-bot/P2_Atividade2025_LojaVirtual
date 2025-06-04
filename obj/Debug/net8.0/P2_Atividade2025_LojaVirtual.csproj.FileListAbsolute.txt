@@ -1,0 +1,15 @@
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\bin\Debug\net8.0\P2_Atividade2025_LojaVirtual.exe
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\bin\Debug\net8.0\P2_Atividade2025_LojaVirtual.deps.json
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\bin\Debug\net8.0\P2_Atividade2025_LojaVirtual.runtimeconfig.json
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\bin\Debug\net8.0\P2_Atividade2025_LojaVirtual.dll
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\bin\Debug\net8.0\P2_Atividade2025_LojaVirtual.pdb
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\obj\Debug\net8.0\P2_Atividade2025_LojaVirtual.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\obj\Debug\net8.0\P2_Atividade2025_LojaVirtual.AssemblyInfoInputs.cache
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\obj\Debug\net8.0\P2_Atividade2025_LojaVirtual.AssemblyInfo.cs
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\obj\Debug\net8.0\P2_Atividade2025_LojaVirtual.csproj.CoreCompileInputs.cache
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\obj\Debug\net8.0\P2_Atividade2025_LojaVirtual.sourcelink.json
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\obj\Debug\net8.0\P2_Atividade2025_LojaVirtual.dll
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\obj\Debug\net8.0\refint\P2_Atividade2025_LojaVirtual.dll
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\obj\Debug\net8.0\P2_Atividade2025_LojaVirtual.pdb
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\obj\Debug\net8.0\P2_Atividade2025_LojaVirtual.genruntimeconfig.cache
+C:\Users\emanuel\Desktop\P2_Atividade2025_LojaVirtual\obj\Debug\net8.0\ref\P2_Atividade2025_LojaVirtual.dll
