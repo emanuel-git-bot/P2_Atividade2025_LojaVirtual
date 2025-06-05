@@ -1,10 +1,11 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace LojaVirtual
 {
-     public interface IPedido
+    public class Pedido
     {
-    
+
     }
 } 
