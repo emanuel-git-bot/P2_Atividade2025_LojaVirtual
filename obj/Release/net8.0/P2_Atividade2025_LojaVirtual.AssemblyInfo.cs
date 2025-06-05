@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("P2_Atividade2025_LojaVirtual")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8df1708ff80e96a667e0bdadd3e3deafe34ced18")]
 [assembly: System.Reflection.AssemblyProductAttribute("P2_Atividade2025_LojaVirtual")]
