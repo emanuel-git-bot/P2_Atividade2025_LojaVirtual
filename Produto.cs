@@ -11,8 +11,17 @@ namespace LojaVirtual
 
         public bool Validar()
         {
+            if (string.IsNullOrWhiteSpace(Nome))
+                return false;
+            
+            if (Preco <= 0)
+                return false;
+            
+            if (string.IsNullOrWhiteSpace(Categoria))
+                return false;
+
             return true;
-         }
+        }
 
     }
 } 
