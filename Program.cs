@@ -20,6 +20,15 @@ namespace LojaVirtual{
             Console.WriteLine(produto2.Nome);
             Console.WriteLine(produto2.Preco);
             Console.WriteLine(produto2.Categoria);
+
+            // Criando cliente
+            var cliente = new Cliente
+            {
+                Id = 1,
+                Nome = "emanuel roque",
+                Email = "emanuelababa@email.com",
+                CPF = "12345678910"
+            };
         }
     }
 }
