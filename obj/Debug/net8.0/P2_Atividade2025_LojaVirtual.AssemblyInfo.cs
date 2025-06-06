@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("P2_Atividade2025_LojaVirtual")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0509842cf06c8d121d18c1753e621d5ae00a597")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc1c4441f916be578438e3c07b395ea6282c1214")]
 [assembly: System.Reflection.AssemblyProductAttribute("P2_Atividade2025_LojaVirtual")]
 [assembly: System.Reflection.AssemblyTitleAttribute("P2_Atividade2025_LojaVirtual")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
