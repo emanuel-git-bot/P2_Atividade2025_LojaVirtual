@@ -7,21 +7,9 @@ namespace LojaVirtual{
         static void Main(string[] args)
         {
             // Criando produtos
-            var produto1 = new Produto
-            {
-                Id = 1,
-                Nome = "Notebook",
-                Preco = 3500.00m,
-                Categoria = "Eletrônicos"
-            };
+            var produto1 = new Produto(1, "Notebook", 3500.00m, "Eletrônicos");
 
-            var produto2 = new Produto
-            {
-                Id = 2,
-                Nome = "Mouse",
-                Preco = 50.00m,
-                Categoria = "Acessórios"
-            };
+            var produto2 = new Produto(2, "Mouse", 50.00m, "Periféricos");
 
             Console.WriteLine(produto1.Id);
             Console.WriteLine(produto1.Nome);
