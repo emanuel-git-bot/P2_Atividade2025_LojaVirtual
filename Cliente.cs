@@ -10,14 +10,22 @@ namespace LojaVirtual
         public string Email { get; set; }
         public string CPF { get; set; }
 
+        
+        public Cliente(int id, string nome, string email, string cpf)
+        {
+            Id = id;
+            Nome = nome;
+            Email = email;
+            CPF = cpf;
+        }
         public bool Validar()
         {
             if (string.IsNullOrWhiteSpace(Nome))
                 return false;
-            
+
             if (string.IsNullOrWhiteSpace(Email) || !ValidarEmail(Email))
                 return false;
-            
+
             if (string.IsNullOrWhiteSpace(CPF) || !ValidarCPF(CPF))
                 return false;
 
