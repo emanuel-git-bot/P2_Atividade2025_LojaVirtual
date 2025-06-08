@@ -6,6 +6,8 @@ namespace LojaVirtual{
     {
         static void Main(string[] args)
         {
+            Console.Clear();
+
             // Criando produtos
             var produto1 = new Produto(1, "Notebook", 3500.00m, "Eletrônicos");
 
@@ -31,24 +33,40 @@ namespace LojaVirtual{
             Console.WriteLine("\n");
 
             var pedido = new Pedido(1, cliente);
- 
+
             pedido.AdicionarItem(produto1, 3); // aqui eu adiciono o item com a class itemPedido
 
             Console.WriteLine(pedido.ValorTotal);
-            
+
 
             Console.WriteLine($"Pedido #{pedido.Id}");
             Console.WriteLine($"Cliente: {pedido.Cliente.Nome}");
             Console.WriteLine($"Data: {pedido.Data}\n");
-            
+
             //removendo o pedido
-            pedido.RemoverItem(1);
+            //pedido.RemoverItem(1);
 
             Console.WriteLine(pedido.ValorTotal);
 
-            Console.WriteLine("\n");
+            Console.WriteLine("\n aplicando descontos:");
 
+            // Aplicando descontos
+            var descontoCategoria = new DescontoPorCategoriaStrategy("Eletrônicos", 10);
+            var descontoQuantidade = new DescontoPorQuantidadeStrategy(2, 5);
 
+            var descontoTotal = descontoCategoria.CalcularDesconto(pedido) +
+                               descontoQuantidade.CalcularDesconto(pedido);
+
+            // Exibindo informações do pedido
+            Console.WriteLine($"Pedido #{pedido.Id}");
+            Console.WriteLine($"Cliente: {pedido.Cliente.Nome}");
+            Console.WriteLine($"Data: {pedido.Data}");
+
+            //valores finais
+            Console.WriteLine($"\nSubtotal: R${pedido.ValorTotal:F2}");
+            Console.WriteLine($"Desconto: R${descontoTotal:F2}");
+            Console.WriteLine($"Total: R${(pedido.ValorTotal - descontoTotal):F2}");
+            
         }
     }
 }
