@@ -29,8 +29,11 @@ namespace LojaVirtual{
             Console.WriteLine("\n");
 
             // Criando cliente
-            var cliente = new Cliente(1, "emanuel roque", "emanuel@email.com", "123.456.789-00");
-            Console.WriteLine(cliente.Email);
+            var cliente1 = new Cliente(1, "emanuel roque", "emanuel@email.com", "123.456.789-00");
+            Console.WriteLine(cliente1.Email);
+
+            var clientesFactory = new ClienteFactory();
+            var cliente = clientesFactory.CriarCliente("benedito roque", "benedito@email.com", "123.456.789-00");
 
             //criando pedido mais agora o item pedido agora serve na class pedido
             Console.WriteLine("\n");
