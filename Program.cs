@@ -40,6 +40,11 @@ namespace LojaVirtual{
             Console.WriteLine($"Pedido #{pedido.Id}");
             Console.WriteLine($"Cliente: {pedido.Cliente.Nome}");
             Console.WriteLine($"Data: {pedido.Data}\n");
+            
+            //removendo o pedido
+            pedido.RemoverItem(1);
+
+            Console.WriteLine(pedido.ValorTotal);
 
             Console.WriteLine("\n");
 
