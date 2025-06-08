@@ -23,6 +23,15 @@ namespace LojaVirtual{
 
             // Criando cliente
             var cliente = new Cliente(1, "emanuel roque", "emanuel@email.com", "123.456.789-00");
+
+            Console.WriteLine(cliente.Email);
+
+            // criando um pedido aqui
+            var itemTeclado = new ItemPedido(produto1, 1);
+
+            //Console.WriteLine($" quntidade: {itemTeclado.Produto}");
+            Console.WriteLine($" quntidade: {itemTeclado.Quantidade}");
+            Console.WriteLine($" subTotal: {itemTeclado.Subtotal}");
         }
     }
 }
