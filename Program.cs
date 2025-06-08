@@ -21,17 +21,29 @@ namespace LojaVirtual{
             Console.WriteLine(produto2.Preco);
             Console.WriteLine(produto2.Categoria);
 
+            Console.WriteLine("\n");
+
             // Criando cliente
             var cliente = new Cliente(1, "emanuel roque", "emanuel@email.com", "123.456.789-00");
-
             Console.WriteLine(cliente.Email);
 
-            // criando um pedido aqui
-            var itemTeclado = new ItemPedido(produto1, 1);
+            //criando pedido mais agora o item pedido agora serve na class pedido
+            Console.WriteLine("\n");
 
-            //Console.WriteLine($" quntidade: {itemTeclado.Produto}");
-            Console.WriteLine($" quntidade: {itemTeclado.Quantidade}");
-            Console.WriteLine($" subTotal: {itemTeclado.Subtotal}");
+            var pedido = new Pedido(1, cliente);
+
+            pedido.AdicionarItem(produto1, 3); // aqui eu adiciono o item com a class itemPedido
+
+            Console.WriteLine(pedido.ValorTotal);
+            
+
+            Console.WriteLine($"Pedido #{pedido.Id}");
+            Console.WriteLine($"Cliente: {pedido.Cliente.Nome}");
+            Console.WriteLine($"Data: {pedido.Data}\n");
+
+            Console.WriteLine("\n");
+
+
         }
     }
 }
