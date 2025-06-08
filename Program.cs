@@ -9,9 +9,12 @@ namespace LojaVirtual{
             Console.Clear();
 
             // Criando produtos
-            var produto1 = new Produto(1, "Notebook", 3500.00m, "Eletrônicos");
+            var produto = new Produto(1, "Notebook", 3500.00m, "Eletrônicos");
 
             var produto2 = new Produto(2, "Mouse", 50.00m, "Periféricos");
+
+            var RealizarPedidos = new ProdutoFactory();
+            var produto1 = RealizarPedidos.CriarProduto("Notebook", 3500.00m, "Eletrônicos");
 
             Console.WriteLine(produto1.Id);
             Console.WriteLine(produto1.Nome);
@@ -37,7 +40,7 @@ namespace LojaVirtual{
             var pedidoFactory = new PedidoFactory();
             var pedido = pedidoFactory.CriarPedido(cliente);
 
-            pedido.AdicionarItem(produto1, 3); // aqui eu adiciono o item com a class itemPedido
+            pedido.AdicionarItem(produto1, 3); // aqui eu adiciono o item com a class itemPedido e pedido
 
             Console.WriteLine(pedido.ValorTotal);
 
@@ -69,7 +72,6 @@ namespace LojaVirtual{
             Console.WriteLine($"\nSubtotal: R${pedido.ValorTotal:F2}");
             Console.WriteLine($"Desconto: R${descontoTotal:F2}");
             Console.WriteLine($"Total: R${(pedido.ValorTotal - descontoTotal):F2}");
-            
         }
     }
 }
