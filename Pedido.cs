@@ -6,6 +6,6 @@ namespace LojaVirtual
 {
     public class Pedido
     {
-
+       
     }
 } 
