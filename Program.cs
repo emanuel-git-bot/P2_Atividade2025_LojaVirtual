@@ -32,7 +32,10 @@ namespace LojaVirtual{
             //criando pedido mais agora o item pedido agora serve na class pedido
             Console.WriteLine("\n");
 
-            var pedido = new Pedido(1, cliente);
+            //var pedido = new Pedido(1, cliente);
+
+            var pedidoFactory = new PedidoFactory();
+            var pedido = pedidoFactory.CriarPedido(cliente);
 
             pedido.AdicionarItem(produto1, 3); // aqui eu adiciono o item com a class itemPedido
 

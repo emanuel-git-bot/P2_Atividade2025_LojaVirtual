@@ -12,7 +12,7 @@ namespace LojaVirtual
         public DateTime Data { get; set; }
         public decimal ValorTotal { get; private set; }
 
-        public Pedido(int id, Cliente cliente)
+        public Pedido(int id, ICliente cliente)
         {
             Id = id;
             Cliente = cliente;
