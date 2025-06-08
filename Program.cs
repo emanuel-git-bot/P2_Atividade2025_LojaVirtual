@@ -31,7 +31,7 @@ namespace LojaVirtual{
             Console.WriteLine("\n");
 
             var pedido = new Pedido(1, cliente);
-
+ 
             pedido.AdicionarItem(produto1, 3); // aqui eu adiciono o item com a class itemPedido
 
             Console.WriteLine(pedido.ValorTotal);

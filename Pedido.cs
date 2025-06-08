@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace LojaVirtual
 {
-    public class Pedido
+    public class Pedido : IPedido
     {
        public int Id { get; set; }
         public ICliente Cliente { get; set; }
